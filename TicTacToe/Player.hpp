@@ -9,8 +9,8 @@ public:
 	Player(std::string symbol_selecton);
 
 	std::string tellSymbol();
-	int tellRow();
-	int tellColumn();
+	unsigned int tellRow();
+	unsigned int tellColumn();
 	void askForMove();
 
 
